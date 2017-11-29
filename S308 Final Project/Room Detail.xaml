@@ -1,0 +1,26 @@
+﻿<Window x:Class="S308_Final_Project.Room_Detail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:S308_Final_Project"
+        mc:Ignorable="d"
+        Title="Room_Detail" Height="350" Width="525">
+    <Grid Background="#FFEEDEDE">
+        <Button x:Name="btnSelect" Content="Select" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="432,285,0,0" FontFamily="Yu Gothic Light"/>
+        <Button x:Name="btnPrevious" Content="Previous" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,285,0,0" FontFamily="Yu Gothic Light"/>
+        <Button x:Name="btnMainMenu" Content="Main Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="221,285,0,0" Click="btnMainMenu_Click" FontFamily="Yu Gothic Light"/>
+        <Label x:Name="lblTitle" Content="Room Details" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18.667" Margin="10,10,0,0" Foreground="#FFB25D5D" FontFamily="Yu Gothic"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="185" VerticalAlignment="Top" Width="220" Margin="19,100,0,0" Source="Images/Hotel_Room.jpg">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="Images/Hotel_Room.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+        <Label x:Name="lblPreview" Content="Preview" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,49,0,0" FontFamily="Yu Gothic Light"/>
+        <Label x:Name="lblsize" Content="Size: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="272,36,0,0" FontFamily="Yu Gothic Light"/>
+        <TextBox x:Name="txtSize" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="68" Margin="314,39,0,0"/>
+        <Label x:Name="lblSquareFeet" Content="square feet" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="387,36,0,0" FontFamily="Yu Gothic Light"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="197" Margin="283,67,0,0" VerticalAlignment="Top" Width="198"/>
+
+    </Grid>
+</Window>

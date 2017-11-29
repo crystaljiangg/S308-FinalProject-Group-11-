@@ -1,0 +1,25 @@
+﻿<Window x:Class="S308_Final_Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:S308_Final_Project"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Image x:Name="imgHotel" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="517" Source="Images/lux4320lo.197712_md.jpg" Stretch="UniformToFill">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="Images/lux4320lo.197712_md.jpg" Opacity="0.3"/>
+            </Image.OpacityMask>
+        </Image>
+
+        <Label x:Name="lblMenu" Content="Main Menu" HorizontalAlignment="Left" Margin="21,19,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" Width="132" FontFamily="Yu Gothic" Foreground="#FF1945A9" Background="{x:Null}"/>
+        <Button x:Name="btnReservation1" Content="New Reservation" HorizontalAlignment="Left" Margin="74,102,0,0" VerticalAlignment="Top" Width="162" Click="btnReservation1_Click" Height="44" FontFamily="Yu Gothic Light" Background="#FFFDF9F9" FontSize="18.667"/>
+        <Button x:Name="btnManagement" Content="Room Management" HorizontalAlignment="Left" Margin="294,102,0,0" VerticalAlignment="Top" Width="182" Click="btnManagement_Click" Height="44" FontFamily="Yu Gothic Light" Background="#FFFBF4F4" FontSize="18.667"/>
+        <Button x:Name="btnReport" Content="Reservations Report" HorizontalAlignment="Left" Margin="169,193,0,0" VerticalAlignment="Top" Width="185" Click="btnReport_Click" Height="44" FontFamily="Yu Gothic Light" Background="#FFFDF4F4" FontSize="18.667"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="440,285,0,0" VerticalAlignment="Top" Width="67" Click="btnExit_Click" Height="24" FontFamily="Yu Gothic Light" Background="#FFFBF7F7"/>
+        <Button x:Name="btnLogOut" Content="Log Out" HorizontalAlignment="Left" Margin="435,33,0,0" VerticalAlignment="Top" Width="62" Click="btnLogOut_Click" Background="#FFFBF9F9"/>
+        <Button x:Name="__" Content="Log In" HorizontalAlignment="Left" Margin="435,8,0,0" VerticalAlignment="Top" Width="62" Click="___Click" Background="#FFFDF9F9"/>
+
+    </Grid>
+</Window>
