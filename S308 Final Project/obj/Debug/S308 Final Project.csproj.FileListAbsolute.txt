@@ -72,3 +72,6 @@ I:\S308 Final Project\S308 Final Project\obj\Debug\S308 Final Project_MarkupComp
 I:\S308-FinalProject-Group 11\S308 Final Project\bin\Debug\S308 Final Project.exe.config
 I:\S308-FinalProject-Group 11\S308 Final Project\obj\Debug\S308 Final Project.exe
 I:\S308-FinalProject-Group 11\S308 Final Project\obj\Debug\S308 Final Project.pdb
+\\iu-uits-ecvfp1\ts_redirect_17-18$\zhang450\Desktop\Final Project\S308 Final Project\bin\Debug\S308 Final Project.exe.config
+\\iu-uits-ecvfp1\ts_redirect_17-18$\zhang450\Desktop\Final Project\S308 Final Project\obj\Debug\S308 Final Project.exe
+\\iu-uits-ecvfp1\ts_redirect_17-18$\zhang450\Desktop\Final Project\S308 Final Project\obj\Debug\S308 Final Project.pdb

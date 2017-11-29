@@ -19,6 +19,9 @@ namespace S308_Final_Project
     /// </summary>
     public partial class Room_Detail : Window
     {
+        /// <summary>
+        //changes
+        /// </summary>
         public Room_Detail()
         {
             InitializeComponent();
