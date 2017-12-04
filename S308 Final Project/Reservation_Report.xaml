@@ -15,7 +15,7 @@
         <Label x:Name="lblLastName" Content="Last Name" HorizontalAlignment="Left" Margin="31,62,0,0" VerticalAlignment="Top" Width="93" FontFamily="Yu Gothic Light"/>
         <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="24" Margin="42,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"/>
         <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="225,131,0,0" VerticalAlignment="Top" Width="83" Height="30" FontSize="14.667" FontFamily="Yu Gothic Light"/>
-        <TextBox x:Name="txbResults" HorizontalAlignment="Left" Height="131" Margin="50,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="438" TextChanged="txbResults_TextChanged" Text="Guest: Jianfeng Zhang&#xD;&#xA;Room(s): One King Deluxe&#xD;&#xA;Check-In Date: 11/08/17-11/11/17&#xD;&#xA;Nights: 3&#xD;&#xA;Email: zhang45@iu.edu&#xD;&#xA;Phone: 8123613256"/>
+        <TextBox x:Name="txbResults" HorizontalAlignment="Left" Height="131" Margin="50,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="438" Text="Guest: Jianfeng Zhang&#xD;&#xA;Room(s): One King Deluxe&#xD;&#xA;Check-In Date: 11/08/17-11/11/17&#xD;&#xA;Nights: 3&#xD;&#xA;Email: zhang45@iu.edu&#xD;&#xA;Phone: 8123613256"/>
         <Button x:Name="btnMainMenu" Content="Main Menu" HorizontalAlignment="Left" Margin="414,10,0,0" VerticalAlignment="Top" Width="83" Height="30" FontSize="14.667" Click="btnMainMenu_Click" FontFamily="Yu Gothic Light" Background="#FFEFE5F1"/>
 
     </Grid>
