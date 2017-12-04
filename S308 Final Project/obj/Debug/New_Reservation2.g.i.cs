@@ -163,7 +163,7 @@ namespace S308_Final_Project {
         
         #line 29 "..\..\New_Reservation2.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.TextBox txtFirstName_Copy;
+        internal System.Windows.Controls.TextBox txtPhone;
         
         #line default
         #line hidden
@@ -179,7 +179,7 @@ namespace S308_Final_Project {
         
         #line 31 "..\..\New_Reservation2.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.TextBox txtFirstName_Copy1;
+        internal System.Windows.Controls.TextBox txtEmail;
         
         #line default
         #line hidden
@@ -252,6 +252,12 @@ namespace S308_Final_Project {
             return;
             case 5:
             this.btnSubmit = ((System.Windows.Controls.Button)(target));
+            
+            #line 16 "..\..\New_Reservation2.xaml"
+            this.btnSubmit.Click += new System.Windows.RoutedEventHandler(this.btnSubmit_Click);
+            
+            #line default
+            #line hidden
             return;
             case 6:
             this.btnPrevious = ((System.Windows.Controls.Button)(target));
@@ -290,13 +296,13 @@ namespace S308_Final_Project {
             this.lblPhone = ((System.Windows.Controls.Label)(target));
             return;
             case 16:
-            this.txtFirstName_Copy = ((System.Windows.Controls.TextBox)(target));
+            this.txtPhone = ((System.Windows.Controls.TextBox)(target));
             return;
             case 17:
             this.lblEmail = ((System.Windows.Controls.Label)(target));
             return;
             case 18:
-            this.txtFirstName_Copy1 = ((System.Windows.Controls.TextBox)(target));
+            this.txtEmail = ((System.Windows.Controls.TextBox)(target));
             return;
             case 19:
             this.lblOptional = ((System.Windows.Controls.Label)(target));

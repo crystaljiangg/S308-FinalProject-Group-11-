@@ -13,7 +13,7 @@
         <Label x:Name="lblGuestInfo" Content="Guest Information" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="27,50,0,0" FontFamily="Yu Gothic Light"/>
         <Label x:Name="lblFirstName" Content="First Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="52,81,0,0" FontFamily="Yu Gothic Light"/>
         <Label x:Name="lblLastName" Content="Last Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="53,125,0,0" FontFamily="Yu Gothic Light"/>
-        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="432,285,0,0" FontFamily="Yu Gothic Light"/>
+        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="432,285,0,0" FontFamily="Yu Gothic Light" Click="btnSubmit_Click"/>
         <Button x:Name="btnPrevious" Content="Previous" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,285,0,0" FontFamily="Yu Gothic Light"/>
         <Button x:Name="btnMainMenu" Content="Main Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="221,285,0,0" Click="btnMainMenu_Click" FontFamily="Yu Gothic Light"/>
         <Label x:Name="lblCreditCardInfo" Content="Credit Card Information" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="27,159,0,0" FontFamily="Yu Gothic Light"/>
@@ -26,9 +26,9 @@
         <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="137,84,0,0" Text="jianfeng"/>
         <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="137,128,0,0" Text="Zhang"/>
         <Label x:Name="lblPhone" Content="Phone:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="268,81,0,0" FontFamily="Yu Gothic Light"/>
-        <TextBox x:Name="txtFirstName_Copy" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="316,84,0,0" Text="8142360965"/>
+        <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="316,84,0,0" Text="8142360965"/>
         <Label x:Name="lblEmail" Content="Email:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="268,125,0,0" FontFamily="Yu Gothic Light"/>
-        <TextBox x:Name="txtFirstName_Copy1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="316,128,0,0" Text="zhang45@iu.edu"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="316,128,0,0" Text="zhang45@iu.edu"/>
         <Label x:Name="lblOptional" Content="(Optional)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="441,125,0,0" FontFamily="Yu Gothic Light"/>
         <Label x:Name="lblPhoneExample" Content="Ex: 8123128123" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="331,102,0,0"/>
         <Label x:Name="lblEmailExample" Content="Ex: James@hotel.com" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="314,145,0,0" FontFamily="Yu Gothic Light"/>
