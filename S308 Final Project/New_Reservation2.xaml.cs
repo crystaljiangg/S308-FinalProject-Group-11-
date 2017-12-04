@@ -47,8 +47,30 @@ namespace S308_Final_Project
             strLastName = txtLastName.Text;
             strEmail = txtEmail.Text;
             strPhone = txtPhone.Text;
-            //add the new guest into the list
+            //collect new guest information
             Guest GuestNew = new Guest(strFirstName, strLastName, strEmail, strPhone);
+            //add the new guest into the list
+            GuestList.Add(GuestNew);
+            //save the new list into the json file
+            //define the file path
+            string strFilePath = @"..\..\..\Data\Guest.json";
+            SaveFile(strFilePath);
+        }
+
+
+        private void SaveFile(string fileName)
+        {
+            try
+            {
+                string jsonData = JsonConvert.SerializeObject(GuestList);
+                System.IO.File.WriteAllText(fileName, jsonData);
+                MessageBox.Show("One Guest Has Been Added.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error in export process: " + ex.Message);
+            }
+        }
         }
     }
 }
