@@ -26,7 +26,7 @@
         </ComboBox>
         <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="278,140,0,0" FontFamily="Yu Gothic Light"/>
         <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="181,140,0,0" FontFamily="Yu Gothic Light"/>
-        <Button x:Name="btnNext" Content="Next" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="416,276,0,0" FontFamily="Yu Gothic Light"/>
+        <Button x:Name="btnNext" Content="Next" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="416,276,0,0" FontFamily="Yu Gothic Light" Click="btnNext_Click"/>
         <TextBox x:Name="txtNumberOfRoom" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" Margin="170,97,0,0" Text="1"/>
         <Button x:Name="btnMainMenu" Content="Main Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="24,276,0,0" Click="btnMainMenu_Click" FontFamily="Yu Gothic Light"/>
         <TextBox x:Name="txtResult" HorizontalAlignment="Left" Height="94" Margin="24,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="467" Text="Room Type&#x9;&#x9;&#x9;Quantity&#x9;&#xA;&#xA;One King Deluxe&#x9;&#x9;&#x9;20"/>

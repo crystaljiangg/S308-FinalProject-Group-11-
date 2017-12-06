@@ -33,5 +33,19 @@ namespace S308_Final_Project
             winMain.Show();
             this.Close();
         }
+
+        private void btnPrevious_Click(object sender, RoutedEventArgs e)
+        {
+            New_Reservation1 ReservationWindow = new New_Reservation1();
+            ReservationWindow.Show();
+            this.Close();
+        }
+
+        private void btnSelect_Click(object sender, RoutedEventArgs e)
+        {
+            New_Reservation3 Reservation2Window = new New_Reservation3();
+            Reservation2Window.Show();
+            this.Close();
+        }
     }
 }

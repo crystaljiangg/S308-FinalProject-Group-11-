@@ -67,9 +67,6 @@
     <Compile Include="New_Reservation1.xaml.cs">
       <DependentUpon>New_Reservation1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="New_Reservation2.xaml.cs">
-      <DependentUpon>New_Reservation2.xaml</DependentUpon>
-    </Compile>
     <Compile Include="New_Reservation3.xaml.cs">
       <DependentUpon>New_Reservation3.xaml</DependentUpon>
     </Compile>
@@ -100,10 +97,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="New_Reservation1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="New_Reservation2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="Room_Detail" Height="350" Width="525">
     <Grid Background="#FFEEDEDE">
-        <Button x:Name="btnSelect" Content="Select" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="432,285,0,0" FontFamily="Yu Gothic Light"/>
-        <Button x:Name="btnPrevious" Content="Previous" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,285,0,0" FontFamily="Yu Gothic Light"/>
+        <Button x:Name="btnSelect" Content="Select" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="432,285,0,0" FontFamily="Yu Gothic Light" Click="btnSelect_Click"/>
+        <Button x:Name="btnPrevious" Content="Previous" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,285,0,0" FontFamily="Yu Gothic Light" Click="btnPrevious_Click"/>
         <Button x:Name="btnMainMenu" Content="Main Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="221,285,0,0" Click="btnMainMenu_Click" FontFamily="Yu Gothic Light"/>
         <Label x:Name="lblTitle" Content="Room Details" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18.667" Margin="10,10,0,0" Foreground="#FFB25D5D" FontFamily="Yu Gothic"/>
         <Image x:Name="image" HorizontalAlignment="Left" Height="185" VerticalAlignment="Top" Width="220" Margin="19,100,0,0" Source="Images/Hotel_Room.jpg">

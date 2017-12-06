@@ -30,5 +30,12 @@ namespace S308_Final_Project
             winMain.Show();
             this.Close();
         }
+
+        private void btnNext_Click(object sender, RoutedEventArgs e)
+        {
+            Room_Detail Room_Detail_Window = new Room_Detail();
+            Room_Detail_Window.Show();
+            this.Close();
+        }
     }
 }
