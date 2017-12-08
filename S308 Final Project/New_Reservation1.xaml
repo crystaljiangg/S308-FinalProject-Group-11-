@@ -12,24 +12,24 @@
         <Label x:Name="lblTitle" Content="New Reservation" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18.667" Margin="10,6,0,0" FontFamily="Yu Gothic" FontWeight="Bold" Foreground="#FFF9FAFD" Background="{x:Null}"/>
         <Label x:Name="lblRoomType" Content="Room Type:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24,63,0,0" FontSize="13.333" FontFamily="Yu Gothic Light"/>
         <Label x:Name="lblNumberOfRoom" Content="Number of Rooms:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24,94,0,0" FontSize="13.333" FontFamily="Yu Gothic Light"/>
-        <DatePicker x:Name="dtpCheckInDate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="370,61,0,0" Height="28" Width="121"/>
+        <DatePicker x:Name="dtpCheckinDate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="370,61,0,0" Height="28" Width="121"/>
         <Label x:Name="lblCheckInDate" Content="Check- in Date:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="266,61,0,0" FontSize="13.333" FontFamily="Yu Gothic Light"/>
         <Label x:Name="lblCheckOutDate" Content="Check- out Date:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="256,94,0,0" FontSize="13.333" FontFamily="Yu Gothic Light"/>
-        <DatePicker x:Name="dtpCheckOutDate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="370,94,0,0" Height="28" Width="121"/>
-        <ComboBox x:Name="cbbRoomType" HorizontalAlignment="Left" VerticalAlignment="Top" Width="117" Margin="134,67,0,0" SelectedIndex="1">
-            <ComboBoxItem Content="One King"/>
-            <ComboBoxItem Content="One King Deluxe"/>
-            <ComboBoxItem Content="Two Queens"/>
-            <ComboBoxItem Content="Two Queen Deluxe"/>
-            <ComboBoxItem Content="One King Suite"/>
-            <ComboBoxItem Content="One King Presidential Suite"/>
+        <DatePicker x:Name="dtpCheckoutDate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="370,94,0,0" Height="28" Width="121"/>
+        <ComboBox x:Name="cobRoomType" HorizontalAlignment="Left" VerticalAlignment="Top" Width="117" Margin="134,67,0,0">
+            <ComboBoxItem Content="one king"/>
+            <ComboBoxItem Content="one king deluxe"/>
+            <ComboBoxItem Content="two queens"/>
+            <ComboBoxItem Content="two queen deluxe"/>
+            <ComboBoxItem Content="one king suite"/>
+            <ComboBoxItem Content="one king presidential suite"/>
         </ComboBox>
-        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="278,140,0,0" FontFamily="Yu Gothic Light"/>
-        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="181,140,0,0" FontFamily="Yu Gothic Light"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="278,140,0,0" FontFamily="Yu Gothic Light" Click="btnSearch_Click"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="181,140,0,0" FontFamily="Yu Gothic Light" Click="btnClear_Click"/>
         <Button x:Name="btnNext" Content="Next" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="416,276,0,0" FontFamily="Yu Gothic Light" Click="btnNext_Click"/>
-        <TextBox x:Name="txtNumberOfRoom" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" Margin="170,97,0,0" Text="1"/>
+        <TextBox x:Name="txtNumberOfRoom" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" Margin="170,97,0,0"/>
         <Button x:Name="btnMainMenu" Content="Main Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="24,276,0,0" Click="btnMainMenu_Click" FontFamily="Yu Gothic Light"/>
-        <TextBox x:Name="txtResult" HorizontalAlignment="Left" Height="94" Margin="24,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="467" Text="Room Type&#x9;&#x9;&#x9;Quantity&#x9;&#xA;&#xA;One King Deluxe&#x9;&#x9;&#x9;20"/>
+        <TextBox x:Name="txtResult" HorizontalAlignment="Left" Height="94" Margin="24,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="467"/>
 
     </Grid>
 </Window>

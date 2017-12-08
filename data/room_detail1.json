@@ -1,0 +1,50 @@
+[
+  {
+    "RoomType": "one king",
+    "RoomPrice": 179,
+    "RoomQuantity": 30,
+    "RoomSize": "500 sqft",
+    "RoomOccupancy":2,
+    "RoomAmenities":"free wifi"
+  },
+  {
+    "RoomType": "one king deluxe",
+    "RoomPrice": 189,
+    "RoomQuantity": 10,
+    "RoomSize": "650 sqft",
+    "RoomOccupancy":2,
+    "RoomAmenities":"free wifi"
+  },
+  {
+    "RoomType": "two queens",
+    "RoomPrice": 189,
+    "RoomQuantity": 30,
+    "RoomSize": "630 sqft",
+    "RoomOccupancy":4,
+    "RoomAmenities":"free wifi"
+  },
+  {
+    "RoomType": "two queen deluxe",
+    "RoomPrice": 214,
+    "RoomQuantity": 15,
+    "RoomSize": "670 sqft",
+    "RoomOccupancy":4,
+    "RoomAmenities":"free wifi"
+  },
+  {
+    "room type": "one king suite",
+    "RoomPrice": 249,
+    "RoomQuantity": 10,
+    "RoomSize": "890 sqft",
+    "RoomOccupancy":5,
+    "RoomAmenities":"free wifi"
+  },
+  {
+    "RoomType": "one king presidential suite",
+    "RoomPrice": 289,
+    "RoomQuantity": 5,
+    "RoomSize": "1224 sqft",
+    "RoomOccupancy":6,
+    "RoomAmenities":"free wifi"
+  }
+]

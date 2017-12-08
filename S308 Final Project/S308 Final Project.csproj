@@ -70,6 +70,7 @@
     <Compile Include="New_Reservation3.xaml.cs">
       <DependentUpon>New_Reservation3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="New_Room.cs" />
     <Compile Include="Reservation_Report.xaml.cs">
       <DependentUpon>Reservation_Report.xaml</DependentUpon>
     </Compile>

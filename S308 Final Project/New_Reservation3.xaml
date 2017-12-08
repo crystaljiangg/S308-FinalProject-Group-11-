@@ -18,7 +18,7 @@
             </Rectangle.RenderTransform>
         </Rectangle>
 
-        <Button x:Name="btnConfirm" Content="Confirm" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="432,285,0,0" FontFamily="Yu Gothic Light"/>
+        <Button x:Name="btnConfirm" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="432,285,0,0" FontFamily="Yu Gothic Light" Click="btnConfirm_Click"/>
         <Button x:Name="btnPrevious" Content="Previous" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,285,0,0" FontFamily="Yu Gothic Light" Click="btnPrevious_Click"/>
         <Button x:Name="btnMainMenu" Content="Main Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="221,285,0,0" Click="btnMainMenu_Click" FontFamily="Yu Gothic Light"/>
         <Label x:Name="lblTitle" Content="New Reservation Confirmation" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18.667" Margin="10,5,0,0" FontFamily="Yu Gothic" Foreground="White"/>
@@ -43,15 +43,15 @@
         <Label x:Name="lblDisplayCheckInDate" Content="11 - 08 - 2017" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="357,79,0,0" Background="#FFE6E6E6" Width="89" Height="23"/>
         <Label x:Name="lblDisplayCheckOutDate" Content="11 - 11 - 2017" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="357,105,0,0" Background="#FFE6E6E6" Width="89" Height="23"/>
         <Label x:Name="lblDisplayNights" Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="357,131,0,0" Background="#FFE6E6E6" Width="89" Height="23"/>
-        <Label x:Name="lblDisplayFirstName" Content="jianfeng" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,176,0,0" Background="#FFE6E6E6" Width="89" Height="23"/>
-        <Label x:Name="lblDisplayLastName" Content="zhang" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,202,0,0" Background="#FFE6E6E6" Width="89" Height="26"/>
-        <Label x:Name="lblDisplayPhone" Content="8123613256" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="357,176,0,0" Background="#FFE6E6E6" Width="89" Height="23"/>
-        <Label x:Name="lblDisplayEmail" Content="zhang45@iu.edu" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="357,202,0,0" Background="#FFE6E6E6" Width="89" Height="26"/>
-        <Label x:Name="lblDisplayCreditCardNumber" Content="4060256598562312" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="373,254,0,0" Background="#FFE6E6E6" Width="134" Height="23"/>
-        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="160,254,0,0" SelectedIndex="0">
+        <ComboBox x:Name="cobType" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="160,254,0,0" SelectedIndex="0">
             <ComboBoxItem Content="Visa"/>
             <ComboBoxItem Content="MasterCard"/>
         </ComboBox>
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" Margin="160,180,0,0"/>
+        <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" Margin="357,180,0,0"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" Margin="160,202,0,0"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" Margin="357,202,0,0"/>
+        <TextBox x:Name="txtCreditCardNumber" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Margin="370,254,0,0"/>
 
     </Grid>
 </Window>
